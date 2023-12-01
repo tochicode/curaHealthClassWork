@@ -18,7 +18,21 @@ public class BookingAptTest {
 
     @Test
     @Description("Appointment Confirmation" +
-            "Please be informed that your appointment has been booked as following:")
+            "Please be informed that your appointment has been booked as following:" +
+            "\nFacility\n" +
+            "Hongkong CURA Healthcare Center\n" +
+            "\n" +
+            "Apply for hospital readmission\n" +
+            "No\n" +
+            "\n" +
+            "Healthcare Program\n" +
+            "Medicaid\n" +
+            "\n" +
+            "Visit Date\n" +
+            "12/04/2023\n" +
+            "\n" +
+            "Comment\n" +
+            "I would like to get a very good specialist to run my health program.")
     public void AppointmentProcess(){
         booking.makeAppointment();
         booking.bookAppointment();

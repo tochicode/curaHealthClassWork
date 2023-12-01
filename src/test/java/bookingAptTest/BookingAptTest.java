@@ -17,7 +17,8 @@ public class BookingAptTest {
     }
 
     @Test
-    @Description("All appointment processes has been successfully passed")
+    @Description("Appointment Confirmation" +
+            "Please be informed that your appointment has been booked as following:")
     public void AppointmentProcess(){
         booking.makeAppointment();
         booking.bookAppointment();
